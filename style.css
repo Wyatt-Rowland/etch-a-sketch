@@ -1,0 +1,59 @@
+#grid {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    border: 10px solid black;
+    margin-top: 50px;
+}
+
+.grid-row {
+    display: flex;
+    width: 100%;
+}
+
+.grid-square {
+    flex-grow: 1;
+    aspect-ratio: 1 / 1;
+    background: white;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    background-color: blue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.canvas {
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
